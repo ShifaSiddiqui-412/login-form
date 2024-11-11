@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+body {
+    background: linear-gradient(90deg, rgb(49, 49, 240), rgb(60, 60, 240), rgb(208, 212, 224), rgb(233, 235, 240));
+}
+.parentDiv {
+    display: flex;
+    color: white;
+}
+h3{
+    margin-top: 120px;
+    margin-left:130px;
+    font-size: 40px;
+    font-family:playball;
+    font-weight: 100;
+
+}
+h2{
+    font-size: 50px;
+    font-family:playball;
+    font-weight: 800;
+    margin-left: 80px;
+}
+#para{
+    font-size: 20px;
+    font-family: playball;
+    line-height: 20px;
+    margin-left:5px ;
+     color: white;
+}
+.fcontainer {
+    width: 260px;
+    min-height: auto;
+    border: 2px groove black;
+    background: linear-gradient(360deg, rgb(198, 213, 240), rgb(211, 211, 231), rgb(213, 227, 231), white);
+    padding-left: 25px;
+    padding-right: 18px;
+    margin-top: 50%;
+    margin-left: 60%;
+    border-radius: 14px;
+    padding-bottom: 10%;
+
+}
+
+i {
+    text-align: center;
+    padding: 13% 30% 13% 34%;
+    font-size: 500%;
+}
+
+p {
+    color: red;
+}
+
+input {
+    width: 160px;
+    height: 27px;
+    padding-left: 80px;
+    border: 2px ridge black;
+    border-radius: 14px;
+    font-size: 20px;
+
+}
+
+button {
+    width: 250px;
+    height: 36px;
+    background: linear-gradient(white, rgb(7, 141, 252));
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 14px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+button:hover {
+    height: 38px;
+    width: 255px;
+    font-size: 22px;
+    border: 3px groove black;
+}
+
+.fcontainer:hover {
+    border: 8px groove white;
+}
+
+input:hover {
+    height: 38px;
+    width: 165px;
+    font-size: 22px;
+    border: 3px groove black;
+}

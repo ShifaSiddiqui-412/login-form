@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login / signup form</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="parentDiv">
+        <div>
+            <h3>Hello,</h3>
+            <h2>Welcome!</h2>
+            <p id="para">Lorem ipsum dolor sit amet  elit.Sapiente possimus<br>  aliquid quos. Aut,
+                blanditiis. Consequatur veritatis distin<br> nam consequuntur quaerat quam. Architecto,
+                volup<br> ullam numquam expedita! lorem ispuconsectetur adipisi.</p>
+        </div>
+        <form action="" onsubmit="return formvalidate()">
+            <div class="fcontainer">
+                <i class="fa-solid fa-circle-user"></i>
+                <input type="text" id="uname" placeholder="Username">
+                <p id="uerror"></p>
+                <input type="password" id="pass" placeholder="Password">
+                <p id="perror"></p>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
